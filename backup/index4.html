@@ -78,8 +78,8 @@
             text-align: center; /* Center text */
             font-weight: bold; /* Make text bold */
             text-shadow: 0 0 10px rgba(255, 255, 255, 0.5), 0 0 20px rgba(255, 215, 0, 0.5); /* Added text shadow for shine */
-            line-height: 1.6; /* Adjusted line height for spacing */
-            margin: 20px 0; /* Increased margin for spacing */
+            line-height: 1.4; /* Increased space between lines */
+            margin: 15px 0; /* Margin for spacing */
         }
 
         .project {
@@ -103,7 +103,7 @@
         }
 
         .project img {
-            width: 150%; /* Make images 1.5x wider */
+            width: 100%; /* Make images responsive */
             height: 300px; /* Set a uniform height for all images */
             object-fit: cover; /* Maintain aspect ratio and cover the area */
             max-width: 900px; /* Set a max width (1.5x of 600px) */
@@ -131,7 +131,7 @@
             <p class="intro-text">Creative Data Team Lead Crafting Innovative Models and Transforming Insights</p>
             <p class="intro-text">into Impactful Strategies</p>
             <ul class="actions">
-                <li><a href="#main" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+                <li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
             </ul>
         </div>
 
@@ -140,38 +140,59 @@
             <h2>My Projects</h2>
             
             <div class="project">
-                <h3><a href="URL_FOR_LIVE_INTEREST_PREDICTION">1. Live Interest Prediction</a></h3>
+                <h3>1. Live Interest Prediction</h3>
                 <p>Predicting upcoming interest decisions from implicit and explicit clues in Federal Reserve speeches.</p>
                 <img src="C:\Users\שי\Desktop\website\federal reserve.jpg" alt="Live Interest Prediction" />
             </div>
             
             <div class="project">
-                <h3><a href="https://github.com/ShaiBirnbaum/Airline_Score_Review_Discrepancy">2. Detecting Airline Review Discrepancy</a></h3>
+                <h3>2. Detecting Airline Review Discrepancy</h3>
                 <p>Finding good/bad reviews that don't seem to match the rating.</p>
                 <img src="C:\Users\שי\Desktop\website\airplane reviews.jpg" alt="Detecting Airline Review Discrepancy" />
             </div>
             
             <div class="project">
-                <h3><a href="https://github.com/ShaiBirnbaum/Bank_Churn_Classification">3. Bank Clients Churn Rates</a></h3>
-                <p>Using Credit data to predict bank clients churn rates .</p>
+                <h3>3. Credit Risk Classification</h3>
+                <p>Quantifying bank clients' risk to enhance financial decision-making.</p>
                 <img src="C:\Users\שי\Desktop\website\Credit-risk-modeling.jpg" alt="Credit Risk Classification" />
             </div>
             
             <div class="project">
-                <h3><a href="https://github.com/ShaiBirnbaum/Motor_Game_and_Simulation"> 4. Just for Fun: Motorcycle Racing Game in India</a></h3>
+                <h3>4. Just for Fun: Motorcycle Racing Game in India</h3>
                 <p>A fun project that simulates motorcycle racing based on Indian motorcycle sales data.</p>
                 <img src="C:\Users\שי\Desktop\website\motorcycle.jpg" alt="Motorcycle Racing Game" />
             </div>
 
             <div class="project">
-                <h3><a href="https://www.mdpi.com/1660-4601/19/24/16561">5. Social Resilience Trajectories in "Suicide Survivors" </a></h3>
+                <h3>5. Social Resilience Trajectories in "Suicide Survivors" 08/2022 </h3>
                 <p>Exploring social factors and consecutive mental symptoms of people who experienced the suicide of a close person: is every social intervention equal?</p>
                 <img src="C:\Users\שי\Desktop\website\laughing-women-talking-on-sofa.jpg" alt="Social Resilience Trajectories" />
             </div>
 
             <!-- Footer -->
             <footer id="footer">
-        
+                <section>
+                    <form method="post" action="mailto........">
+                        <div class="fields">
+                            <div class="field">
+                                <label for="name">Name</label>
+                                <input type="text" name="name" id="name" />
+                            </div>
+                            <div class="field">
+                                <label for="email">Email</label>
+                                <input type="text" name="email" id="email" />
+                            </div>
+                            <div class="field">
+                                <label for="message">Message</label>
+                                <textarea name="message" id="message" rows="4"></textarea>
+                            </div>
+                        </div>
+                        <ul class="actions">
+                            <li><input type="submit" value="Send Message" class="button" /></li>
+                        </ul>
+                    </form>
+                </section>
+                <section class="split contact">
                     <section class="alt">
                         <h3>Email</h3>
                         <p><a href="#">1shaibiren@gmail.com</a></p>
@@ -186,8 +207,11 @@
                 </section>
             </footer>
 
- 
-
+            <!-- Copyright -->
+            <div id="copyright">
+                <ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+            </div>
+        </div>
 
     </div>
 
